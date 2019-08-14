@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 áudio player</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="player">
+    <div class="play">
+      <span class="player-audio"></span>
+    </div>
+    <div class="audio-info">
+      <span class="nome-arquivo">Pinochio Talk</span>
+      <div class="progress-bar">
+        <span class="current-bar"></span>
+      </div>
+      <span class="progress-time"></span>
+      <span class="total-time">00:00</span>
+    </div>
+    <div class="volume">
+      <div class="mute"></div>
+      <div class="barras">
+        <span class="aud1 active"></span>
+        <span class="aud2 active"></span>
+        <span class="aud3 active"></span>
+        <span class="aud4"></span>
+      </div>
+    </div>
+
+    <audio class="player_audio" controls="">
+      <source src="http://www.thiagocanudo.com.br/instant-pinoquio/audios/impreciso.mp3" type="audio/ogg">
+      Seu browser não suporta o player de áudio.
+    </audio>
+  </div>
+
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<script data-require="jquery@*" data-semver="2.0.3" src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
